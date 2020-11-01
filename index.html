@@ -1,1 +1,26 @@
-Hello Wolrd
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/estilacho.css">
+        <title>Cifrado Cesar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="pri">
+            Este es un ejemplo del algoritmo cesar mejorado
+        </div>
+        <div id="txt"><textarea id="cadena" ></textarea></div>
+        Resultado: <div id="resultado"></div>
+        <p></p>
+        <div id="err"></div>
+        <p></p>
+        <div>
+            Posición: <input type="number" id="numero">
+            <p></p>
+            <input value="Cifrar" type="button" onclick="codificar()" id="bot">
+            <input value="Decifrar" type="button" onclick="decodificar()" id="bot">
+        </div>
+        <script src="js/logica.js"></script>
+    </body>
+</html>
